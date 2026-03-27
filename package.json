@@ -22,6 +22,14 @@
     "camouflage",
     "green"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Louis-Ph/danube-streber-theme.git"
+  },
+  "homepage": "https://github.com/Louis-Ph/danube-streber-theme#readme",
+  "bugs": {
+    "url": "https://github.com/Louis-Ph/danube-streber-theme/issues"
+  },
   "files": [
     "themes/**",
     "images/icon.png",

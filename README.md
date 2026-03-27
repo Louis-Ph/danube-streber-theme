@@ -51,13 +51,15 @@ Suggested `settings.json` overrides:
 
 ## Publication Status
 
-- GitHub remote not configured yet
+- GitHub repository: https://github.com/Louis-Ph/danube-streber-theme
 - Marketplace publisher not created or connected yet
 - README screenshots are intentionally deferred until real capture assets exist
 
 ## Support
 
-Support workflow is described in `SUPPORT.md`. GitHub issue links will be added once the public repository exists.
+Open an issue on GitHub: https://github.com/Louis-Ph/danube-streber-theme/issues
+
+Support workflow details remain documented in `SUPPORT.md`.
 
 ## License
 

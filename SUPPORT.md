@@ -9,5 +9,6 @@ This project is not public yet.
 
 ## Public Support Path
 
-- GitHub issues will become the main support channel once the public repository exists.
+- GitHub issues are the main support channel:
+  https://github.com/Louis-Ph/danube-streber-theme/issues
 - Marketplace Q&A stays disabled until that workflow is live and maintained.
