@@ -1,0 +1,49 @@
+{
+  "name": "streber-dark-theme",
+  "displayName": "Streber Dark Theme",
+  "description": "VS Code theme inspired by the colors of the Danube streber fish",
+  "version": "1.0.0",
+  "publisher": "streber-theme",
+  "license": "SEE LICENSE IN LICENSE",
+  "pricing": "Free",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "streber",
+    "danube",
+    "accessible",
+    "military",
+    "camouflage",
+    "green"
+  ],
+  "files": [
+    "themes/**",
+    "images/icon.png",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "SUPPORT.md"
+  ],
+  "markdown": "github",
+  "qna": false,
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#0d110d",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Streber Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/streber-dark.json"
+      }
+    ]
+  }
+}
