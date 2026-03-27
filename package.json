@@ -30,6 +30,11 @@
   "bugs": {
     "url": "https://github.com/Louis-Ph/danube-streber-theme/issues"
   },
+  "scripts": {
+    "check:links": "npx --yes markdown-link-check README.md SUPPORT.md PUBLISHING.md",
+    "package:vsix": "npx --yes @vscode/vsce package --no-dependencies",
+    "validate:marketplace": "npm run check:links && npm run package:vsix"
+  },
   "files": [
     "themes/**",
     "images/icon.png",

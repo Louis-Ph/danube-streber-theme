@@ -54,12 +54,13 @@ Suggested `settings.json` overrides:
 - GitHub repository: https://github.com/Louis-Ph/danube-streber-theme
 - Marketplace publisher not created or connected yet
 - README screenshots are intentionally deferred until real capture assets exist
+- Marketplace release guide: [PUBLISHING.md](./PUBLISHING.md)
 
 ## Support
 
 Open an issue on GitHub: https://github.com/Louis-Ph/danube-streber-theme/issues
 
-Support workflow details remain documented in `SUPPORT.md`.
+Support workflow details remain documented in [SUPPORT.md](./SUPPORT.md).
 
 ## License
 
