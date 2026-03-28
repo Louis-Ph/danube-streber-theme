@@ -1,13 +1,8 @@
 # Support
 
-This project is not public yet.
+This project is public and published on the VS Code Marketplace.
 
-## Current Support Path
-
-- Validate the extension locally by packaging a `.vsix` from the repository root.
-- Track release blockers directly in the repository until the GitHub remote is created.
-
-## Public Support Path
+## Support Path
 
 - GitHub issues are the main support channel:
   https://github.com/Louis-Ph/danube-streber-theme/issues

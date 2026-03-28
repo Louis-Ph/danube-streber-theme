@@ -10,7 +10,7 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/streber-theme.streber-dark-theme?style=flat-square&color=b8a57a" alt="Ratings"></a>
 </p>
 
-Streber Dark Theme is a VS Code theme collection built around the Danube streber fish. On this branch it gives you three coordinated variants that stay calm, readable, and deliberate across editor, sidebar, panels, terminal, and diffs.
+Streber Dark Theme is a VS Code theme collection inspired by the Danube streber fish. It gives you three coordinated variants built for long sessions, deliberate contrast, and clear semantic separation across the editor, sidebar, panels, terminal, and diffs.
 
 ## Included Themes
 
@@ -28,10 +28,13 @@ Streber Dark Theme is a VS Code theme collection built around the Danube streber
 
 ![Streber Smoked Gold preview](./screenshots/streber-smoked-gold.png)
 
+### Streber Light
+
+![Streber Light preview](./screenshots/streber-light.png)
+
 ## Why Use It
 
-- Two distinct dark moods without switching extensions
-- A matching light mode on this branch for daytime evaluation
+- Three coordinated moods without switching extensions
 - Semantic highlighting enabled for modern language servers
 - Strong separation between keywords, types, functions, strings, and comments
 - Low-glare surfaces tuned for long coding sessions
