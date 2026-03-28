@@ -1,7 +1,7 @@
-<h1 align="center">Streber Dark Theme</h1>
+<h1 align="center">Danube Streber Theme Ecosystem</h1>
 
 <p align="center">
-  <em>Three coordinated editor moods in one extension: Danube greens for focus, smoked gold for warmth, and a refined light variant for daytime work.</em>
+  <em>An adaptive visual environment engineered for cognitive endurance and zero-distraction deep work.</em>
 </p>
 
 <p align="center">
@@ -10,76 +10,47 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/streber-theme.streber-dark-theme?style=flat-square&color=b8a57a" alt="Ratings"></a>
 </p>
 
-Streber Dark Theme is a VS Code theme collection inspired by the Danube streber fish. It gives you three coordinated variants built for long sessions, deliberate contrast, and clear semantic separation across the editor, sidebar, panels, terminal, and diffs.
+---
 
-## Included Themes
+## 🐟 The Streber Philosophy
 
-- `Streber Dark` for deep green backgrounds, restrained blue-gray syntax, and amber accents
-- `Streber Smoked Gold` for olive-brown surfaces, brass highlights, and honey-gold syntax warmth
-- `Streber Light` for pale mineral backgrounds, sage accents, and cleaner daytime contrast
+Most modern IDE themes fail by attempting to maximize contrast, bombarding the retina with neon colors that inevitably lead to visual and cognitive fatigue during complex, multi-hour debugging sessions.
 
-## Theme Previews
+We invert the problem: **How do we build a resilient visual ecosystem that actively reduces parsing effort?**
 
-### Streber Dark
+Taking inspiration from the _Zingel streber_—a highly resilient benthic fish native to the Danube River that thrives in deep, fast-flowing currents by maintaining a low profile—this collection is built for extreme visual endurance. By utilizing camouflage palettes, desaturated syntax, and precise highlights, the Streber ecosystem anchors your focus and keeps the editor strictly analytical.
 
-![Streber Dark preview](./screenshots/danube-streber-theme.png)
+## 🎛️ Three Adaptive Environments
 
-### Streber Smoked Gold
+Because external lighting conditions and retinal fatigue fluctuate, a single theme is a single point of failure. The Streber extension provides three coordinated environments to ensure continuous operability.
 
-![Streber Smoked Gold preview](./screenshots/streber-smoked-gold.png)
+### 1. Streber Dark (The Deep Anchor)
 
-### Streber Light
+Built for absolute focus. Deep camouflage greens, restrained blue-gray syntax, and sharp amber accents for structural clarity.
+[![Streber Dark preview](./screenshots/danube-streber-theme.png)](./screenshots/danube-streber-theme.png)
 
-![Streber Light preview](./screenshots/streber-light.png)
+### 2. Streber Smoked Gold (The Late-Night Buffer)
 
-## Why Use It
+Engineered for hours when blue light becomes toxic. Olive-brown surfaces, brass highlights, and honey-gold syntax warmth to mitigate eye strain.
+[![Streber Smoked Gold preview](./screenshots/streber-smoked-gold.png)](./screenshots/streber-smoked-gold.png)
 
-- Three coordinated moods without switching extensions
-- Semantic highlighting enabled for modern language servers
-- Strong separation between keywords, types, functions, strings, and comments
-- Low-glare surfaces tuned for long coding sessions
-- Balanced workbench colors across explorer, tabs, menus, terminal, and diffs
-- Cleaner Markdown and inline-code rendering in the light variant
+### 3. Streber Light (The Daylight Albedo)
 
-## Best Fit
+Designed for high-glare daytime environments. Pale mineral backgrounds, sage accents, and strict contrast that prevents the text from washing out on bright screens.
+[![Streber Light preview](./screenshots/streber-light.png)](./screenshots/streber-light.png)
 
-The collection has been tuned for everyday work in:
+---
 
-- JavaScript and TypeScript
-- Python
-- Rust
-- Markdown
-- JSON, YAML, shell, and general config files
+## 📐 Structural Advantages
 
-## Palette Direction
+- **Semantic Rigor:** Strict, logical separation between keywords, types, functions, strings, and comments.
+- **State Resilience:** Carefully tuned workbench colors ensure UI elements (explorer, tabs, terminal, diffs) remain legible without overpowering the code canvas.
+- **Broad Spectrum Efficacy:** Calibrated primarily for `JavaScript/TypeScript`, `Python`, `Rust`, and essential configuration formats (`JSON`, `YAML`, `Shell`).
 
-| Theme | Background | Accent | Character |
-| --- | --- | --- | --- |
-| `Streber Dark` | `#0d110d` | `#5a8f6a` | Cool, focused, camouflage green |
-| `Streber Smoked Gold` | `#14110d` | `#ba934e` | Warm, smoky, brass-toned |
-| `Streber Light` | `#faf6ef` | `#5a6e4a` | Daylight, mineral, sage-and-sand |
+## 🚀 Installation
 
-## Install
-
-From VS Code Quick Open:
+From VS Code Quick Open (`Ctrl+P` / `Cmd+P`):
 
 ```bash
 ext install streber-theme.streber-dark-theme
 ```
-
-From the command line:
-
-```bash
-code --install-extension streber-theme.streber-dark-theme
-```
-
-## Activate
-
-1. Open `Preferences: Color Theme`
-2. Select `Streber Dark`, `Streber Smoked Gold`, or `Streber Light`
-
-## Support
-
-- Marketplace: https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme
-- Repository: https://github.com/Louis-Ph/danube-streber-theme
-- Issues: https://github.com/Louis-Ph/danube-streber-theme/issues

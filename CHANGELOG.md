@@ -11,6 +11,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add more language-specific color optimizations
 - Add GitHub and Marketplace metadata after the public release workflow exists
 
+## [1.0.7] - 2026-03-28
+
+### Changed
+- Repositioned the Marketplace README with stronger product messaging around the Streber theme ecosystem
+- Refreshed the `Streber Light` preview image used in the public listing
+- Updated the extension summary in `package.json` to match the new Marketplace framing
+
 ## [1.0.6] - 2026-03-28
 
 ### Changed
@@ -102,6 +109,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.7   | 2026-03-28 | Refreshed Marketplace marketing and light preview |
 | 1.0.6   | 2026-03-28 | Refined Streber Light palette and refreshed release docs |
 | 1.0.5   | 2026-03-28 | Polished Streber Light Markdown preview rendering |
 | 1.0.4   | 2026-03-28 | Added Streber Light and refreshed documentation |

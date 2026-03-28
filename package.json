@@ -1,8 +1,8 @@
 {
   "name": "streber-dark-theme",
   "displayName": "Streber Dark Theme",
-  "description": "VS Code theme collection featuring Streber Dark, Streber Smoked Gold, and Streber Light",
-  "version": "1.0.6",
+  "description": "Adaptive VS Code theme ecosystem for deep-focus dark, smoked gold, and daylight light workflows",
+  "version": "1.0.7",
   "publisher": "streber-theme",
   "license": "SEE LICENSE IN LICENSE",
   "pricing": "Free",
