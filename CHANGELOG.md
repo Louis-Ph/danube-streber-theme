@@ -9,8 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Planned
 - Add more language-specific color optimizations
-- Create light variant (Streber Light)
 - Add GitHub and Marketplace metadata after the public release workflow exists
+
+### Added
+- `Streber Light`, an experimental light variant on the `codex/streber-light` branch
+
+### Changed
+- Branch metadata and README now expose the three-theme trial set
 
 ## [1.0.3] - 2026-03-28
 
