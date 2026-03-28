@@ -1,7 +1,7 @@
 <h1 align="center">Streber Dark Theme</h1>
 
 <p align="center">
-  <em>Two Danube streber-inspired dark themes: the original green-led palette and a warmer smoked-gold variant.</em>
+  <em>Two dark editor moods in one extension: Danube greens for focus, smoked gold for warmth.</em>
 </p>
 
 <p align="center">
@@ -10,25 +10,34 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/streber-theme.streber-dark-theme?style=flat-square&color=b8a57a" alt="Ratings"></a>
 </p>
 
-![Streber Dark Theme preview](./screenshots/danube-streber-theme.png)
-
-Streber Dark Theme now ships with two related dark variants inspired by the Danube streber fish. The goal stays the same: keep the editor calm, legible, and precise during long sessions, while giving you a cooler green base or a warmer smoked-gold atmosphere.
+Streber Dark Theme is a VS Code theme collection built around the Danube streber fish. It gives you two coordinated dark variants that stay calm, readable, and deliberate across editor, sidebar, panels, terminal, and diffs.
 
 ## Included Themes
 
-- `Streber Dark`: camouflage greens, restrained blue-gray syntax, and warm amber accents
-- `Streber Smoked Gold`: smoked olive-brown surfaces, brass highlights, and honey-gold syntax accents
+- `Streber Dark` for deep green backgrounds, restrained blue-gray syntax, and amber accents
+- `Streber Smoked Gold` for olive-brown surfaces, brass highlights, and honey-gold syntax warmth
 
-## Why It Works
+## Theme Previews
 
-- Deep green background with restrained contrast instead of neon-heavy colors
-- Clear separation between keywords, types, functions, strings, and comments
+### Streber Dark
+
+![Streber Dark preview](./screenshots/danube-streber-theme.png)
+
+### Streber Smoked Gold
+
+![Streber Smoked Gold preview](./screenshots/streber-smoked-gold.png)
+
+## Why Use It
+
+- Two distinct dark moods without switching extensions
 - Semantic highlighting enabled for modern language servers
-- Tuned to stay readable across editor, panels, sidebar, and diff views
+- Strong separation between keywords, types, functions, strings, and comments
+- Low-glare surfaces tuned for long coding sessions
+- Balanced workbench colors across explorer, tabs, menus, terminal, and diffs
 
 ## Best Fit
 
-Both themes have been tuned for everyday work in:
+The collection has been tuned for everyday work in:
 
 - JavaScript and TypeScript
 - Python
@@ -36,15 +45,12 @@ Both themes have been tuned for everyday work in:
 - Markdown
 - JSON, YAML, shell, and general config files
 
-## Palette Highlights
+## Palette Direction
 
-| Element | Color | Role |
-| --- | --- | --- |
-| Background | `#0d110d` | Deep camouflage green |
-| Foreground | `#c8d8c8` | Soft silver-green text |
-| Accent | `#5a8f6a` | Main UI highlight |
-| Cursor | `#b8a57a` | Warm amber focus point |
-| Selection | `#3a624a` | Muted active selection |
+| Theme | Background | Accent | Character |
+| --- | --- | --- | --- |
+| `Streber Dark` | `#0d110d` | `#5a8f6a` | Cool, focused, camouflage green |
+| `Streber Smoked Gold` | `#14110d` | `#ba934e` | Warm, smoky, brass-toned |
 
 ## Install
 

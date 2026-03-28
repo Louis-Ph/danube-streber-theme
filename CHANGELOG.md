@@ -7,22 +7,26 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Planned
+- Add more language-specific color optimizations
+- Create light variant (Streber Light)
+- Add GitHub and Marketplace metadata after the public release workflow exists
+
+## [1.0.3] - 2026-03-28
+
 ### Added
 - Explicit VSIX file allowlist in `package.json` to keep the published package minimal
 - `SUPPORT.md` with a defined pre-public support path
 - Semantic highlighting enabled in the theme manifest
 - `Streber Smoked Gold`, a second dark theme variant with warmer brass and smoked-brown tones
+- Dedicated Marketplace screenshot for `Streber Smoked Gold`
 
 ### Changed
 - README now only references assets and links that actually exist
 - Publication notes now reflect the real state of the project
 - Extension metadata and README now describe the package as a two-theme collection
-
-### Planned
-- Add more language-specific color optimizations
-- Create light variant (Streber Light)
-- Capture and publish real screenshots
-- Add GitHub and Marketplace metadata after the public release workflow exists
+- The Marketplace README now presents both themes with a cleaner marketing layout
+- Screenshot asset naming is aligned with `Streber Smoked Gold`
 
 ## [1.0.2] - 2026-03-28
 
@@ -76,6 +80,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.3   | 2026-03-28 | Added Smoked Gold variant and refreshed listing |
 | 1.0.2   | 2026-03-28 | Marketplace listing polish |
 | 1.0.1   | 2026-03-28 | Marketplace metadata and README fixes |
 | 1.0.0   | 2026-03-27 | Initial release          |
