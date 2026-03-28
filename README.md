@@ -1,7 +1,7 @@
 <h1 align="center">Streber Dark Theme</h1>
 
 <p align="center">
-  <em>Three coordinated editor moods in one extension: Danube greens for focus, smoked gold for warmth, and a light variant for daytime work.</em>
+  <em>Three coordinated editor moods in one extension: Danube greens for focus, smoked gold for warmth, and a refined light variant for daytime work.</em>
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@ Streber Dark Theme is a VS Code theme collection inspired by the Danube streber 
 
 - `Streber Dark` for deep green backgrounds, restrained blue-gray syntax, and amber accents
 - `Streber Smoked Gold` for olive-brown surfaces, brass highlights, and honey-gold syntax warmth
-- `Streber Light` for pale mineral backgrounds, river-sage accents, and softer daytime contrast
+- `Streber Light` for pale mineral backgrounds, sage accents, and cleaner daytime contrast
 
 ## Theme Previews
 
@@ -39,6 +39,7 @@ Streber Dark Theme is a VS Code theme collection inspired by the Danube streber 
 - Strong separation between keywords, types, functions, strings, and comments
 - Low-glare surfaces tuned for long coding sessions
 - Balanced workbench colors across explorer, tabs, menus, terminal, and diffs
+- Cleaner Markdown and inline-code rendering in the light variant
 
 ## Best Fit
 
@@ -56,7 +57,7 @@ The collection has been tuned for everyday work in:
 | --- | --- | --- | --- |
 | `Streber Dark` | `#0d110d` | `#5a8f6a` | Cool, focused, camouflage green |
 | `Streber Smoked Gold` | `#14110d` | `#ba934e` | Warm, smoky, brass-toned |
-| `Streber Light` | `#f6f1e7` | `#6c8259` | Daylight, mineral, river-sage |
+| `Streber Light` | `#faf6ef` | `#5a6e4a` | Daylight, mineral, sage-and-sand |
 
 ## Install
 

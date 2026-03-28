@@ -10,10 +10,11 @@ This file documents a repeatable screenshot workflow for the Streber theme colle
 
 ## Preparation
 
-### 1. Install the local extension build
+### 1. Build and install the local extension
 
 ```bash
-code --install-extension streber-dark-theme-1.0.4.vsix --force
+npm run package:vsix
+code --install-extension "$(ls -t streber-dark-theme-*.vsix | head -n 1)" --force
 ```
 
 ### 2. Configure VS Code
@@ -57,7 +58,8 @@ Open your settings and apply a clean capture profile:
 ### Streber Light
 
 - Markdown, Python, or TypeScript file
-- Show that the light palette stays readable and not washed out
+- Show inline code, lists, and Markdown preview surfaces
+- Confirm that the light palette stays readable without washed-out syntax
 
 ## Capture Tools
 

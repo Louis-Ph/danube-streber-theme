@@ -19,14 +19,14 @@ Run from the repository root:
 
 ```bash
 npm run validate:marketplace
-code --install-extension streber-dark-theme-1.0.0.vsix --force
+code --install-extension "$(ls -t streber-dark-theme-*.vsix | head -n 1)" --force
 ```
 
 Then in VS Code:
 
 1. Open `Preferences: Color Theme`
-2. Select `Streber Dark`
-3. Confirm the icon, theme colors, editor contrast and workbench contrast
+2. Select `Streber Dark`, `Streber Smoked Gold`, and `Streber Light`
+3. Confirm the icon, theme colors, editor contrast, workbench contrast, and Markdown preview rendering
 
 ## One-Time Marketplace Setup
 
