@@ -22,6 +22,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Capture and publish real screenshots
 - Add GitHub and Marketplace metadata after the public release workflow exists
 
+## [1.0.2] - 2026-03-28
+
+### Changed
+- Polished the Marketplace listing copy for clearer positioning and install instructions
+- Aligned the README title and wording with the published extension name
+- Kept a prominent screenshot while simplifying the page structure
+
 ## [1.0.1] - 2026-03-28
 
 ### Added
@@ -67,5 +74,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.2   | 2026-03-28 | Marketplace listing polish |
 | 1.0.1   | 2026-03-28 | Marketplace metadata and README fixes |
 | 1.0.0   | 2026-03-27 | Initial release          |
