@@ -1,67 +1,58 @@
-# Streber Dark Theme
+<h1 align="center">Danube Streber Theme</h1>
 
-Streber Dark is a VS Code color theme inspired by the Danube streber fish, built around deep camouflage greens, restrained blue-gray syntax accents, and warm amber highlights for long coding sessions.
+<p align="center">
+  <em>A rigorously engineered dark theme for deep work, sharp contrast, and cognitive resilience.</em>
+</p>
 
-## Features
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/v/streber-theme.streber-dark-theme?style=flat-square&color=blue" alt="Version"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/i/streber-theme.streber-dark-theme?style=flat-square&color=success" alt="Installs"></a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/streber-theme.streber-dark-theme?style=flat-square&color=yellow" alt="Ratings"></a>
+</p>
 
-- Accessible dark palette for extended use
-- Full workbench and syntax theming
-- Semantic highlighting enabled for modern language servers
-- Static extension with no runtime code, simple to audit and package
+---
 
-## Palette
+## 👁️ The Philosophy: Design by Inversion
 
-| Element | Color | Role |
-| --- | --- | --- |
-| Background | `#0d110d` | Deep camouflage green |
-| Foreground | `#c8d8c8` | Soft silver-green text |
-| Accent | `#5a8f6a` | Primary UI highlight |
-| Cursor | `#b8a57a` | Warm amber focus point |
-| Selection | `#3a624a` | Muted active selection |
+Most themes fail by trying to do too much. They blast your retinas with neon colors, turning your codebase into a Christmas tree. By hour six of a complex refactoring session, visual noise translates directly into cognitive fatigue.
 
-## Local Installation
+The **Danube Streber** theme flips the paradigm. To build a better visual environment, we must invert the problem: _How do we remove every unnecessary visual distraction while maintaining strict semantic clarity?_
 
-Package the extension from the repository root:
+Inspired by the concept of the _Streber_ (the relentless overachiever, the meticulous worker), this theme is designed for senior engineers who treat their IDE as an analytical instrument.
+
+### Core Tenets
+
+- **Cognitive Resilience:** Carefully calibrated dark backgrounds that reduce eye strain without flattening depth.
+- **Semantic Rigor:** Strict color mapping. Variables, functions, and control flows are immediately distinguishable, preventing parsing errors before your linter even catches them.
+- **Subtle Elegance:** A palette inspired by the deep, cold, and clear currents of the Danube.
+
+---
+
+## 📸 In Action
+
+![Danube Streber Theme Screenshot](./screenshots/danube-streber-theme.png)
+
+### Language Specifics
+
+Because a theme that looks good in Python might fail miserably in C++, Danube Streber has been fine-tuned across multiple environments.
+
+---
+
+## 🚀 Installation
+
+1. Open **Extensions** sidebar panel in VS Code: `Ctrl+Shift+X` (Windows/Linux) or `Cmd+Shift+X` (Mac).
+2. Search for `Streber Dark`.
+3. Click **Install**.
+4. Click **Reload** to restart VS Code.
+5. Navigate to `File > Preferences > Color Theme` (`Code > Preferences > Color Theme` on Mac).
+6. Select `Streber Dark`.
+
+_Alternatively, launch VS Code Quick Open (`Ctrl+P` or `Cmd+P`) and paste the following command:_
 
 ```bash
-npx @vscode/vsce package --no-dependencies
-code --install-extension streber-dark-theme-1.0.0.vsix
+ext install streber-theme.streber-dark-theme
 ```
 
-## Activation
-
-1. Open the command palette with `Cmd+Shift+P` or `Ctrl+Shift+P`.
-2. Run `Preferences: Color Theme`.
-3. Select `Streber Dark`.
-
-## Customization
-
-Suggested `settings.json` overrides:
-
-```jsonc
-{
-  "editor.fontSize": 14,
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 24,
-  "editor.minimap.enabled": true,
-  "editor.cursorBlinking": "smooth",
-  "editor.guides.highlightActiveIndentation": true
-}
+```bash
+code --install-extension streber-theme.streber-dark-theme
 ```
-
-## Publication Status
-
-- GitHub repository: https://github.com/Louis-Ph/danube-streber-theme
-- Marketplace publisher not created or connected yet
-- README screenshots are intentionally deferred until real capture assets exist
-- Marketplace release guide: [PUBLISHING.md](./PUBLISHING.md)
-
-## Support
-
-Open an issue on GitHub: https://github.com/Louis-Ph/danube-streber-theme/issues
-
-Support workflow details remain documented in [SUPPORT.md](./SUPPORT.md).
-
-## License
-
-MIT License. See `LICENSE`.
