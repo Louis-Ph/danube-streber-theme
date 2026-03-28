@@ -22,6 +22,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Capture and publish real screenshots
 - Add GitHub and Marketplace metadata after the public release workflow exists
 
+## [1.0.1] - 2026-03-28
+
+### Added
+- README screenshot for the published Marketplace listing
+
+### Changed
+- Corrected Marketplace links and install commands in the README
+- Aligned the published package metadata with the public GitHub repository
+
 ## [1.0.0] - 2026-03-27
 
 ### Added
@@ -58,4 +67,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.1   | 2026-03-28 | Marketplace metadata and README fixes |
 | 1.0.0   | 2026-03-27 | Initial release          |
