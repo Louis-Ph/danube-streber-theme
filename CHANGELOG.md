@@ -11,6 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add more language-specific color optimizations
 - Add GitHub and Marketplace metadata after the public release workflow exists
 
+## [1.0.5] - 2026-03-28
+
+### Changed
+- Refined `Streber Light` contrast in Markdown previews so inline and preformatted code no longer render with dark capsules
+- Refreshed the dedicated `Streber Light` screenshot used in the public documentation
+
 ## [1.0.4] - 2026-03-28
 
 ### Added
@@ -90,6 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.5   | 2026-03-28 | Polished Streber Light Markdown preview rendering |
 | 1.0.4   | 2026-03-28 | Added Streber Light and refreshed documentation |
 | 1.0.3   | 2026-03-28 | Added Smoked Gold variant and refreshed listing |
 | 1.0.2   | 2026-03-28 | Marketplace listing polish |
