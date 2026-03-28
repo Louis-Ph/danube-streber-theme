@@ -1,7 +1,7 @@
 {
   "name": "streber-dark-theme",
   "displayName": "Streber Dark Theme",
-  "description": "VS Code theme inspired by the colors of the Danube streber fish",
+  "description": "VS Code theme collection featuring Streber Dark and Streber Smoked Gold",
   "version": "1.0.2",
   "publisher": "streber-theme",
   "license": "SEE LICENSE IN LICENSE",
@@ -20,7 +20,10 @@
     "accessible",
     "military",
     "camouflage",
-    "green"
+    "green",
+    "gold",
+    "amber",
+    "smoked"
   ],
   "repository": {
     "type": "git",
@@ -47,7 +50,7 @@
   "qna": false,
   "icon": "images/icon.png",
   "galleryBanner": {
-    "color": "#0d110d",
+    "color": "#14110d",
     "theme": "dark"
   },
   "contributes": {
@@ -56,6 +59,11 @@
         "label": "Streber Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/streber-dark.json"
+      },
+      {
+        "label": "Streber Smoked Gold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/streber-smoked-gold.json"
       }
     ]
   }

@@ -1,7 +1,7 @@
 <h1 align="center">Streber Dark Theme</h1>
 
 <p align="center">
-  <em>Danube streber-inspired greens, warm amber accents, and low-glare contrast for long coding sessions.</em>
+  <em>Two Danube streber-inspired dark themes: the original green-led palette and a warmer smoked-gold variant.</em>
 </p>
 
 <p align="center">
@@ -12,7 +12,12 @@
 
 ![Streber Dark Theme preview](./screenshots/danube-streber-theme.png)
 
-Streber Dark Theme is a dark VS Code theme built around camouflage greens, desaturated blue-gray syntax, and warm amber highlights inspired by the Danube streber fish. The goal is simple: keep the editor calm, legible, and precise during long sessions.
+Streber Dark Theme now ships with two related dark variants inspired by the Danube streber fish. The goal stays the same: keep the editor calm, legible, and precise during long sessions, while giving you a cooler green base or a warmer smoked-gold atmosphere.
+
+## Included Themes
+
+- `Streber Dark`: camouflage greens, restrained blue-gray syntax, and warm amber accents
+- `Streber Smoked Gold`: smoked olive-brown surfaces, brass highlights, and honey-gold syntax accents
 
 ## Why It Works
 
@@ -23,7 +28,7 @@ Streber Dark Theme is a dark VS Code theme built around camouflage greens, desat
 
 ## Best Fit
 
-Streber Dark has been tuned for everyday work in:
+Both themes have been tuned for everyday work in:
 
 - JavaScript and TypeScript
 - Python
@@ -58,7 +63,7 @@ code --install-extension streber-theme.streber-dark-theme
 ## Activate
 
 1. Open `Preferences: Color Theme`
-2. Select `Streber Dark`
+2. Select `Streber Dark` or `Streber Smoked Gold`
 
 ## Support
 

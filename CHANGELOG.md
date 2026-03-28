@@ -11,10 +11,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Explicit VSIX file allowlist in `package.json` to keep the published package minimal
 - `SUPPORT.md` with a defined pre-public support path
 - Semantic highlighting enabled in the theme manifest
+- `Streber Smoked Gold`, a second dark theme variant with warmer brass and smoked-brown tones
 
 ### Changed
 - README now only references assets and links that actually exist
 - Publication notes now reflect the real state of the project
+- Extension metadata and README now describe the package as a two-theme collection
 
 ### Planned
 - Add more language-specific color optimizations
