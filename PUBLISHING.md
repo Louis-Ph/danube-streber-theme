@@ -1,6 +1,6 @@
 # Publishing
 
-This repository is ready for VS Code Marketplace publication, but the final publish step still requires your Microsoft and Azure DevOps credentials.
+This repository is already published on the VS Code Marketplace. This file documents the repeatable release workflow for future updates.
 
 ## Current Extension Identity
 
@@ -43,13 +43,7 @@ Example:
 npx --yes @vscode/vsce login streber-theme
 ```
 
-## First Publish
-
-If version `1.0.0` has never been published, use:
-
-```bash
-npx --yes @vscode/vsce publish 1.0.0
-```
+## Publish an Update
 
 If you want `vsce` to bump the patch version automatically for the next release:
 
@@ -60,8 +54,8 @@ npx --yes @vscode/vsce publish patch
 ## After Publish
 
 1. Open the Marketplace listing
-2. Verify icon, README rendering and resource links
-3. Add screenshots if you want a stronger listing page
+2. Verify icon, README rendering, screenshots, and resource links
+3. Confirm the new version is visible in the Marketplace hub
 4. Tag the release on GitHub if you also want a public `.vsix` artifact there
 
 ## References

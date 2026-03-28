@@ -1,8 +1,8 @@
 {
   "name": "streber-dark-theme",
   "displayName": "Streber Dark Theme",
-  "description": "VS Code theme collection featuring Streber Dark and Streber Smoked Gold",
-  "version": "1.0.3",
+  "description": "VS Code theme collection featuring Streber Dark, Streber Smoked Gold, and Streber Light",
+  "version": "1.0.4",
   "publisher": "streber-theme",
   "license": "SEE LICENSE IN LICENSE",
   "pricing": "Free",
@@ -23,7 +23,8 @@
     "green",
     "gold",
     "amber",
-    "smoked"
+    "smoked",
+    "light"
   ],
   "repository": {
     "type": "git",
@@ -64,6 +65,11 @@
         "label": "Streber Smoked Gold",
         "uiTheme": "vs-dark",
         "path": "./themes/streber-smoked-gold.json"
+      },
+      {
+        "label": "Streber Light",
+        "uiTheme": "vs",
+        "path": "./themes/streber-light.json"
       }
     ]
   }

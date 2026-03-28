@@ -9,8 +9,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Planned
 - Add more language-specific color optimizations
-- Create light variant (Streber Light)
 - Add GitHub and Marketplace metadata after the public release workflow exists
+
+## [1.0.4] - 2026-03-28
+
+### Added
+- `Streber Light`, an experimental light variant on the `codex/streber-light` branch
+- Dedicated Marketplace screenshot for `Streber Light`
+
+### Changed
+- Branch metadata and README now expose the three-theme trial set
+- `SCREENSHOTS.md` was translated to English
+- `SUPPORT.md` and `PUBLISHING.md` now reflect the current public release workflow
 
 ## [1.0.3] - 2026-03-28
 
@@ -80,6 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.4   | 2026-03-28 | Added Streber Light and refreshed documentation |
 | 1.0.3   | 2026-03-28 | Added Smoked Gold variant and refreshed listing |
 | 1.0.2   | 2026-03-28 | Marketplace listing polish |
 | 1.0.1   | 2026-03-28 | Marketplace metadata and README fixes |

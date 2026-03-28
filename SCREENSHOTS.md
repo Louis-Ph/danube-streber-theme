@@ -1,26 +1,27 @@
-# Guide pour captures d'écran du thème Streber Dark
+# Screenshot Guide
 
-État actuel :
+This file documents a repeatable screenshot workflow for the Streber theme collection.
 
-- Les fichiers `screenshots/*.png` ne sont pas encore générés.
-- Le `README.md` ne les référence plus tant que les captures réelles ne sont pas prêtes.
-- Ce document reste la procédure de capture à appliquer avant publication Marketplace.
+## Current Assets
 
-## Préparation
+- `screenshots/danube-streber-theme.png`
+- `screenshots/streber-smoked-gold.png`
+- `screenshots/streber-light.png`
 
-### 1. Installer le thème localement
+## Preparation
+
+### 1. Install the local extension build
 
 ```bash
-code --install-extension streber-dark-theme-1.0.0.vsix --force
+code --install-extension streber-dark-theme-1.0.4.vsix --force
 ```
 
-### 2. Configurer VS Code
+### 2. Configure VS Code
 
-Ouvre tes paramètres (`Cmd+,`) et ajoute :
+Open your settings and apply a clean capture profile:
 
 ```jsonc
 {
-  "workbench.colorTheme": "Streber Dark",
   "editor.fontSize": 14,
   "editor.lineHeight": 24,
   "editor.fontFamily": "'Fira Code', 'Cascadia Code', Consolas, monospace",
@@ -33,120 +34,57 @@ Ouvre tes paramètres (`Cmd+,`) et ajoute :
 }
 ```
 
-### 3. Fenêtre optimale
+### 3. Use a clean window
 
-- **Largeur** : 1200-1400px
-- **Hauteur** : 800-900px
-- **Mode** : Plein écran ou fenêtre propre
-- **Barre latérale** : Visible (Explorer)
-- **Panel** : Terminal ouvert (optionnel)
+- Width: `1200` to `1600` px
+- Height: `800` to `1000` px
+- Explorer visible
+- Clean workspace with no personal file names
+- Optional integrated terminal only when it adds value to the shot
 
-## Captures recommandées
+## Recommended Shots
 
-### 1. Preview principale (`screenshots/preview.png`)
+### Streber Dark
 
-**Fichier** : Un fichier JavaScript/TypeScript ou Rust avec :
-- Des imports/uses en haut
-- Une fonction avec des paramètres
-- Des commentaires
-- Des strings
-- Des keywords (if, let, const, fn, etc.)
+- JavaScript or TypeScript file
+- Visible imports, comments, strings, functions, and control flow
 
-**Dimensions** : 1200x630px (ratio social media)
+### Streber Smoked Gold
 
-### 2. JavaScript/TypeScript (`screenshots/javascript.png`)
+- Rust, shell, or configuration file with dense syntax variation
+- Warm tones should remain visible without overexposure
 
-**Fichier suggéré** : `new-util.ts` ou similaire
-- Interface/type definitions
-- Arrow functions
-- Template literals
-- Async/await
+### Streber Light
 
-### 3. Python (`screenshots/python.png`)
+- Markdown, Python, or TypeScript file
+- Show that the light palette stays readable and not washed out
 
-**Fichier suggéré** : Script avec :
-- Imports
-- Class definition
-- Methods with docstrings
-- List comprehensions
-
-### 4. Rust (`screenshots/rust.png`)
-
-**Fichier suggéré** : Module Rust avec :
-- Structs et impl
-- Pattern matching
-- Error handling (Result, Option)
-
-### 5. Markdown (`screenshots/markdown.png`)
-
-**Fichier** : Le README.md lui-même
-- Headers
-- Code blocks
-- Lists
-- Links
-
-## Outils de capture
+## Capture Tools
 
 ### macOS
 
 ```bash
-# Capture de zone
+# Region capture
 Cmd+Shift+4
 
-# Capture de fenêtre
-Cmd+Shift+4, puis Espace
+# Window capture
+Cmd+Shift+4, then Space
 
-# Capture avec timer (pour positionner)
+# Timed capture
 Cmd+Shift+5
 ```
 
-### Outils recommandés
+### Recommended Apps
 
-- **CleanShot X** (macOS) - Payant mais excellent
-- **Shottr** (macOS) - Gratuit, très bon
-- **Flameshot** (Linux) - Open source
-- **ShareX** (Windows) - Open source
+- CleanShot X
+- Shottr
+- Flameshot
+- ShareX
 
-## Retouches
+## Export Checks
 
-### Avec Preview (macOS)
-
-1. Ouvre la capture dans Preview
-2. Outils → Ajuster la taille → 1200x630
-3. Export → PNG
-
-### Avec GIMP (Gratuit)
-
-1. Fichier → Ouvrir
-2. Image → Échelle et taille de l'image
-3. Fichier → Exporter → PNG
-
-## Nom des fichiers
-
-```
-screenshots/
-├── preview.png       # 1200x630 - Principal
-├── javascript.png    # 1200x800 - JS/TS
-├── python.png        # 1200x800 - Python
-├── rust.png          # 1200x800 - Rust
-└── markdown.png      # 1200x800 - Markdown
-```
-
-## Vérification
-
-Avant de publier :
-
-- [ ] Les couleurs sont fidèles au thème
-- [ ] Le texte est lisible
-- [ ] Pas d'éléments personnels visibles (noms de fichiers, paths)
-- [ ] Format PNG (meilleure qualité)
-- [ ] Taille < 1MB par image
-
-## Astuce pro
-
-Pour des captures cohérentes :
-1. Utilise toujours la même police et taille
-2. Garde la même largeur de fenêtre
-3. Même niveau de zoom (100%)
-4. Thème : Streber Dark uniquement
-5. Pas d'autres extensions visibles
+- PNG format
+- Less than 1 MB when practical
+- No private paths, user names, or unrelated extensions
+- Theme colors match the actual extension build
+- Text remains readable when rendered on the Marketplace page
