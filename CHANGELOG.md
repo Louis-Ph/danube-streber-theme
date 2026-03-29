@@ -7,12 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-### Planned
-- Add more language-specific color optimizations
-- Add GitHub and Marketplace metadata after the public release workflow exists
+## [1.0.8] - 2026-03-29
 
 ### Added
 - `resources/language-samples/` with visual QA files across major programming and markup languages
+
+### Changed
+- Accessibility tuning was extended across `Streber Dark`, `Streber Smoked Gold`, and `Streber Light` for higher-frequency language families and completion surfaces
+- Markdown documentation now reflects the three-theme collection, the language QA corpus, and the current pre-release review workflow
 
 ## [1.0.7] - 2026-03-28
 
@@ -112,6 +114,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.8   | 2026-03-29 | Added language QA samples and refreshed release documentation |
 | 1.0.7   | 2026-03-28 | Refreshed Marketplace marketing and light preview |
 | 1.0.6   | 2026-03-28 | Refined Streber Light palette and refreshed release docs |
 | 1.0.5   | 2026-03-28 | Polished Streber Light Markdown preview rendering |

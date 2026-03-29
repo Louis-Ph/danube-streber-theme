@@ -26,7 +26,16 @@ Then in VS Code:
 
 1. Open `Preferences: Color Theme`
 2. Select `Streber Dark`, `Streber Smoked Gold`, and `Streber Light`
-3. Confirm the icon, theme colors, editor contrast, workbench contrast, and Markdown preview rendering
+3. Open `resources/language-samples/`
+4. Check syntax and semantic contrast across the sample corpus
+5. Confirm the suggestion widget, quick input, and list selections remain readable
+6. Confirm the icon, theme colors, editor contrast, workbench contrast, and Markdown preview rendering
+
+Reference material for this pass:
+
+- `README.md`
+- `SCREENSHOTS.md`
+- `resources/language-samples/README.md`
 
 ## One-Time Marketplace Setup
 
@@ -49,6 +58,12 @@ If you want `vsce` to bump the patch version automatically for the next release:
 
 ```bash
 npx --yes @vscode/vsce publish patch
+```
+
+If you prefer to set the exact version yourself, update `package.json` and `CHANGELOG.md` first, then publish:
+
+```bash
+npx --yes @vscode/vsce publish
 ```
 
 ## After Publish

@@ -1,7 +1,7 @@
 <h1 align="center">Danube Streber Theme Ecosystem</h1>
 
 <p align="center">
-  <em>An adaptive visual environment engineered for cognitive endurance and zero-distraction deep work.</em>
+  <em>Three coordinated VS Code themes tuned for long sessions, semantic clarity, and lower visual fatigue.</em>
 </p>
 
 <p align="center">
@@ -10,47 +10,100 @@
   <a href="https://marketplace.visualstudio.com/items?itemName=streber-theme.streber-dark-theme"><img src="https://img.shields.io/visual-studio-marketplace/r/streber-theme.streber-dark-theme?style=flat-square&color=b8a57a" alt="Ratings"></a>
 </p>
 
----
+Danube Streber Theme is a VS Code theme collection inspired by the Danube streber fish. It currently ships three coordinated environments:
 
-## 🐟 The Streber Philosophy
+- `Streber Dark`
+- `Streber Smoked Gold`
+- `Streber Light`
 
-Most modern IDE themes fail by attempting to maximize contrast, bombarding the retina with neon colors that inevitably lead to visual and cognitive fatigue during complex, multi-hour debugging sessions.
+The collection is built around one goal: make frequent developer tasks easier to parse under real working conditions, not just in a polished screenshot. That means readable code, restrained accents, stable workbench contrast, and a suggestion widget that stays usable during long sessions.
 
-We invert the problem: **How do we build a resilient visual ecosystem that actively reduces parsing effort?**
+## Included Themes
 
-Taking inspiration from the _Zingel streber_—a highly resilient benthic fish native to the Danube River that thrives in deep, fast-flowing currents by maintaining a low profile—this collection is built for extreme visual endurance. By utilizing camouflage palettes, desaturated syntax, and precise highlights, the Streber ecosystem anchors your focus and keeps the editor strictly analytical.
+### Streber Dark
 
-## 🎛️ Three Adaptive Environments
+Deep camouflage greens, blue-gray semantics, and amber emphasis for dense editor work.
 
-Because external lighting conditions and retinal fatigue fluctuate, a single theme is a single point of failure. The Streber extension provides three coordinated environments to ensure continuous operability.
-
-### 1. Streber Dark (The Deep Anchor)
-
-Built for absolute focus. Deep camouflage greens, restrained blue-gray syntax, and sharp amber accents for structural clarity.
 [![Streber Dark preview](./screenshots/danube-streber-theme.png)](./screenshots/danube-streber-theme.png)
 
-### 2. Streber Smoked Gold (The Late-Night Buffer)
+### Streber Smoked Gold
 
-Engineered for hours when blue light becomes toxic. Olive-brown surfaces, brass highlights, and honey-gold syntax warmth to mitigate eye strain.
+Smoked olive-brown surfaces with brass and honey-gold accents for lower-blue-light evening work.
+
 [![Streber Smoked Gold preview](./screenshots/streber-smoked-gold.png)](./screenshots/streber-smoked-gold.png)
 
-### 3. Streber Light (The Daylight Albedo)
+### Streber Light
 
-Designed for high-glare daytime environments. Pale mineral backgrounds, sage accents, and strict contrast that prevents the text from washing out on bright screens.
+Pale mineral surfaces, sage structure, and controlled daylight contrast for bright environments.
+
 [![Streber Light preview](./screenshots/streber-light.png)](./screenshots/streber-light.png)
 
----
+## Accessibility And Language Coverage
 
-## 📐 Structural Advantages
+The themes are tuned for high-frequency programming tasks first, then broadened across the rest of the stack. Current visual QA and token tuning cover:
 
-- **Semantic Rigor:** Strict, logical separation between keywords, types, functions, strings, and comments.
-- **State Resilience:** Carefully tuned workbench colors ensure UI elements (explorer, tabs, terminal, diffs) remain legible without overpowering the code canvas.
-- **Broad Spectrum Efficacy:** Calibrated primarily for `JavaScript/TypeScript`, `Python`, `Rust`, and essential configuration formats (`JSON`, `YAML`, `Shell`).
+- `Java`
+- `C++`
+- `Go`
+- `PHP`
+- `TypeScript`
+- `JavaScript`
+- `Python`
+- `C#`
+- `Rust`
+- `OCaml`
+- `Bash`
+- `HTML`
+- `XML`
+- `CSS`
+- `SCSS`
+- `Markdown`
+- `JSON`
+- `YAML`
 
-## 🚀 Installation
+The current pass also tightens readability for:
+
+- semantic token separation across types, properties, methods, parameters, comments, strings, and numbers
+- completion and quick-pick surfaces such as the suggestion widget, quick input, menus, and list selections
+- Markdown preview and inline code rendering in the light theme
+
+## Visual QA Assets
+
+The repository includes a dedicated language review corpus in [`resources/language-samples/`](./resources/language-samples/README.md). It is intended for visual inspection before release and for regression checks after palette changes.
+
+Suggested workflow:
+
+1. Open `resources/language-samples/` in VS Code.
+2. Switch between `Streber Dark`, `Streber Smoked Gold`, and `Streber Light`.
+3. Inspect syntax, semantic tokens, punctuation, lists, and the suggestion widget.
+4. Review Markdown preview and workbench states before packaging.
+
+## Installation
 
 From VS Code Quick Open (`Ctrl+P` / `Cmd+P`):
 
 ```bash
 ext install streber-theme.streber-dark-theme
 ```
+
+From the Extensions panel:
+
+1. Search for `Streber Dark Theme`
+2. Install the extension published by `streber-theme`
+3. Open `Preferences: Color Theme`
+4. Pick the variant you want to use
+
+## Local Validation
+
+From the repository root:
+
+```bash
+npm run validate:marketplace
+code --install-extension "$(ls -t streber-dark-theme-*.vsix | head -n 1)" --force
+```
+
+Additional project docs:
+
+- [Screenshot workflow](./SCREENSHOTS.md)
+- [Publishing workflow](./PUBLISHING.md)
+- [Support](./SUPPORT.md)

@@ -17,6 +17,8 @@ npm run package:vsix
 code --install-extension "$(ls -t streber-dark-theme-*.vsix | head -n 1)" --force
 ```
 
+Before capturing, use the repository QA corpus in `resources/language-samples/` so screenshots reflect the exact language mix used to validate the themes.
+
 ### 2. Configure VS Code
 
 Open your settings and apply a clean capture profile:
@@ -47,19 +49,31 @@ Open your settings and apply a clean capture profile:
 
 ### Streber Dark
 
-- JavaScript or TypeScript file
-- Visible imports, comments, strings, functions, and control flow
+- Prefer `01-typescript.ts`, `02-javascript.js`, `04-java.java`, or `05-cpp.cpp`
+- Keep imports, comments, types, strings, methods, and control flow visible
+- If possible, open completion once so the suggestion widget is shown in at least one capture
 
 ### Streber Smoked Gold
 
-- Rust, shell, or configuration file with dense syntax variation
-- Warm tones should remain visible without overexposure
+- Prefer `09-rust.rs`, `11-bash.sh`, `17-json.json`, or `18-yaml.yaml`
+- Keep warm tones visible without flattening comments or strings
+- Include one shot with denser punctuation or config syntax
 
 ### Streber Light
 
-- Markdown, Python, or TypeScript file
-- Show inline code, lists, and Markdown preview surfaces
-- Confirm that the light palette stays readable without washed-out syntax
+- Prefer `16-markdown.md`, `03-python.py`, `01-typescript.ts`, or `12-html.html`
+- Show inline code, lists, preview surfaces, and at least one quick-pick or suggestion surface
+- Confirm that the light palette stays readable without washed-out syntax or dark Markdown capsules
+
+## Review Targets
+
+For every final screenshot, check:
+
+- editor text contrast
+- semantic separation between types, properties, methods, strings, comments, and numbers
+- active tab and sidebar readability
+- suggestion widget readability
+- absence of personal paths, secrets, or unrelated extensions
 
 ## Capture Tools
 
