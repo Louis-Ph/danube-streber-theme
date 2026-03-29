@@ -1,8 +1,8 @@
 {
   "name": "streber-dark-theme",
   "displayName": "Streber Dark Theme",
-  "description": "Adaptive VS Code theme ecosystem for deep-focus dark, smoked gold, and daylight light workflows",
-  "version": "1.0.9",
+  "description": "Adaptive VS Code theme ecosystem for deep-focus dark, smoked gold, daylight light, and luminous blue-night workflows",
+  "version": "1.0.10",
   "publisher": "streber-theme",
   "license": "SEE LICENSE IN LICENSE",
   "pricing": "Free",
@@ -26,6 +26,7 @@
     "military",
     "camouflage",
     "green",
+    "blue",
     "gold",
     "amber",
     "smoked",
@@ -75,6 +76,11 @@
         "label": "Streber Light",
         "uiTheme": "vs",
         "path": "./themes/streber-light.json"
+      },
+      {
+        "label": "Streber Blue Danube Goddess",
+        "uiTheme": "vs-dark",
+        "path": "./themes/streber-blue-danube-goddess.json"
       }
     ]
   }

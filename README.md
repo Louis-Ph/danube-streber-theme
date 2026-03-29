@@ -15,7 +15,7 @@
 
 ## Overview
 
-Danube Streber Theme is a collection of three coordinated Visual Studio Code themes inspired by the natural tones of the Danube streber fish.
+Danube Streber Theme is a collection of four coordinated Visual Studio Code themes inspired by the natural tones of the Danube streber fish.
 
 The project is built around one principle:
 **optimize real-world developer readability, not screenshot aesthetics.**
@@ -32,6 +32,7 @@ The ecosystem currently includes:
 - `Streber Dark`
 - `Streber Smoked Gold`
 - `Streber Light`
+- `Streber Blue Danube Goddess`
 
 Each variant keeps the same semantic structure while adapting contrast and luminance to different working conditions.
 
@@ -57,6 +58,13 @@ Pale mineral surfaces with sage structure and controlled daylight contrast.
 Optimized for bright environments without glare.
 
 [![Streber Light preview](./screenshots/streber-light.png)](./screenshots/streber-light.png)
+
+### Streber Blue Danube Goddess
+
+Midnight river blues, pearl-blue luminance, and harp-gold accents inspired by a Danube twilight fantasy palette.
+Designed as a darker, more luminous blue variant for night work without neon harshness.
+
+[![Streber Blue Danube Goddess preview](./screenshots/streber-blue-danube-goddess.png)](./screenshots/streber-blue-danube-goddess.png)
 
 ## Accessibility and Language Coverage
 
@@ -104,8 +112,9 @@ It is intended for:
 
 1. Open `resources/language-samples/` in VS Code.
 2. Switch between `Streber Dark`, `Streber Smoked Gold`, and `Streber Light`.
-3. Inspect syntax, semantic tokens, punctuation, lists, and suggestion widgets.
-4. Review Markdown preview and workbench states before packaging.
+3. Switch to `Streber Blue Danube Goddess` and compare the same files again.
+4. Inspect syntax, semantic tokens, punctuation, lists, and suggestion widgets.
+5. Review Markdown preview and workbench states before packaging.
 
 ## Installation
 

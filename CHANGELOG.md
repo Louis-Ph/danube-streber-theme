@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.10] - 2026-03-29
+
+### Added
+- `Streber Blue Danube Goddess`, a new dark variant built around river blues, pearly luminance, and harp-gold accents
+
+### Changed
+- The extension metadata and README now expose the four-theme collection, including the new blue Danube variant
+- Added a dedicated preview screenshot for `Streber Blue Danube Goddess`
+
 ## [1.0.9] - 2026-03-29
 
 ### Changed
@@ -121,6 +130,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.10  | 2026-03-29 | Added Streber Blue Danube Goddess and its dedicated preview |
 | 1.0.9   | 2026-03-29 | Refined README, refreshed screenshots, and added calm-focus Marketplace tags |
 | 1.0.8   | 2026-03-29 | Added language QA samples and refreshed release documentation |
 | 1.0.7   | 2026-03-28 | Refreshed Marketplace marketing and light preview |
