@@ -1,0 +1,14 @@
+name: streber-theme
+version: 1.0.0
+enabled: true
+
+targets:
+  - java
+  - cpp
+  - go
+  - php
+  - python
+
+metadata:
+  owner: louis
+  notes: "Visual QA file for theme review"

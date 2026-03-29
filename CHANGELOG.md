@@ -11,6 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add more language-specific color optimizations
 - Add GitHub and Marketplace metadata after the public release workflow exists
 
+### Added
+- `resources/language-samples/` with visual QA files across major programming and markup languages
+
 ## [1.0.7] - 2026-03-28
 
 ### Changed

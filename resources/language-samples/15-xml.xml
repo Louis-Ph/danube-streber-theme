@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace xmlns="urn:visual-test" version="1.0">
+  <project name="streber-theme" language="typescript">
+    <module id="core" enabled="true" />
+    <module id="preview" enabled="false">
+      <note><![CDATA[Use this file to inspect tag and attribute colors.]]></note>
+    </module>
+  </project>
+</workspace>

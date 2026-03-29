@@ -1,0 +1,17 @@
+:root {
+  --surface: #0d110d;
+  --accent: #5a8f6a;
+  --radius: 14px;
+}
+
+.layout {
+  display: grid;
+  min-height: 100vh;
+  margin: 0;
+  place-items: center;
+  background: linear-gradient(180deg, var(--surface), #161a16);
+}
+
+#app button:hover {
+  border-color: color-mix(in srgb, var(--accent) 70%, white);
+}

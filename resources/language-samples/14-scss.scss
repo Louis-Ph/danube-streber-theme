@@ -1,0 +1,18 @@
+$surface: #14110d;
+$accent: #ba934e;
+
+@mixin card($padding) {
+  padding: $padding;
+  border: 1px solid rgba($accent, 0.35);
+  border-radius: 12px;
+}
+
+.panel {
+  @include card(1rem);
+  background: linear-gradient(180deg, $surface, lighten($surface, 6%));
+
+  &__title {
+    color: $accent;
+    font-weight: 700;
+  }
+}

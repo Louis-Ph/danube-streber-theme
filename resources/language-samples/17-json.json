@@ -1,0 +1,10 @@
+{
+  "name": "streber-theme",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": ["theme", "dark", "visual-test"],
+  "settings": {
+    "semanticHighlighting": true,
+    "targets": ["java", "cpp", "go", "php", "python"]
+  }
+}
