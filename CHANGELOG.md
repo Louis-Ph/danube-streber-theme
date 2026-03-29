@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.9] - 2026-03-29
+
+### Changed
+- Refined the Marketplace and GitHub README with a clearer narrative around readability, long sessions, and theme selection
+- Added calm-focus Marketplace keywords such as `calm`, `quiet`, `serene`, `focus`, and `focused`
+- Refreshed the preview screenshots for `Streber Dark`, `Streber Smoked Gold`, and `Streber Light`
+
 ## [1.0.8] - 2026-03-29
 
 ### Added
@@ -114,6 +121,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date       | Notes                    |
 |---------|------------|--------------------------|
+| 1.0.9   | 2026-03-29 | Refined README, refreshed screenshots, and added calm-focus Marketplace tags |
 | 1.0.8   | 2026-03-29 | Added language QA samples and refreshed release documentation |
 | 1.0.7   | 2026-03-28 | Refreshed Marketplace marketing and light preview |
 | 1.0.6   | 2026-03-28 | Refined Streber Light palette and refreshed release docs |
